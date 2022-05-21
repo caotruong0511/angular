@@ -1,0 +1,15 @@
+{{product | json}}
+
+<form (ngSubmit)="onsubmit()">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Name</label>
+      <input type="text" class="form-control" name="name" [(ngModel)]="product.name" >
+      <label for="exampleInputEmail1" >price</label>
+      <input type="text" class="form-control"  name="price"  [(ngModel)]="product.price">
+      <label for="exampleInputEmail1">img</label>
+      <input type="text" class="form-control" name="image"  [(ngModel)]="product.image">
+      <label for="exampleInputEmail1">desc</label>
+      <input type="text" class="form-control" name="desc"  [(ngModel)]="product.desc">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

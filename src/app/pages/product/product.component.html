@@ -1,0 +1,27 @@
+<div className="w-11/12 m-auto ">
+    <div  class="product">
+
+    
+
+        <div *ngFor="let e of product" >
+          <img src={`${e.img}`} alt="" className="w-28 m-auto" />
+          <h1 className="w-48  m-auto text-center mt-3 text-sm">
+            {{e.name}}
+          </h1>
+          <div className="flex mt-4 justify-around">
+            <p className="text-red-500 font-bold">
+              {{e.price}}
+            </p>
+         
+          </div>
+         <a routerLink="/product/{{e.id}}"> <button className="border border-black w-11/12 m-auto block mt-3 bg-slate-700 text-white  py-1">
+            Xem ngay
+          </button></a>
+          
+        </div>
+       
+        </div>
+        <div>
+          
+        </div>
+    </div>

@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 13",
+      "price": 24000000,
+      "quantity": 1000,
+      "discount": 25,
+      "desc": "Hublot Spirit Of Big Bang Titanium Ceramic 45mm, 601.NM.0173.LR chiếc đồng hồ này sở hữu một kích thước thuộc hàng khủng: 45mm cùng với chất liệu titanium siêu bền nhẹ và cứng cỗ máy này lại không quá nặng nhưng vẫn đầm tay.",
+      "categoryId": 1,
+      "image": "assets/image/product/iphone13.png",
+      "status": 1,
+      "view": 82
+    },
+    {
+      "id": 2,
+      "name": "Iphone 12",
+      "price": 24000000,
+      "quantity": 1000,
+      "discount": 25,
+      "desc": "Hublot Spirit Of Big Bang Titanium Ceramic 45mm, 601.NM.0173.LR chiếc đồng hồ này sở hữu một kích thước thuộc hàng khủng: 45mm cùng với chất liệu titanium siêu bền nhẹ và cứng cỗ máy này lại không quá nặng nhưng vẫn đầm tay.",
+      "categoryId": 1,
+      "image": "assets/image/product/iphone13.png",
+      "status": 1,
+      "view": 82
+    },
+    {
+      "id": 3,
+      "name": "Iphone ",
+      "price": 24000000,
+      "quantity": 1000,
+      "discount": 25,
+      "desc": "Hublot Spirit Of Big Bang Titanium Ceramic 45mm, 601.NM.0173.LR chiếc đồng hồ này sở hữu một kích thước thuộc hàng khủng: 45mm cùng với chất liệu titanium siêu bền nhẹ và cứng cỗ máy này lại không quá nặng nhưng vẫn đầm tay.",
+      "categoryId": 1,
+      "image": "assets/image/product/iphone13.png",
+      "status": 1,
+      "view": 82
+    }
+  ]
+}
