@@ -36,5 +36,13 @@
       "status": 1,
       "view": 82
     }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$0fi9RLy3wZ3kQhnZ3pYUO.DIFENOUfF9bp8eholgxk2iTZYKyCbmC",
+      "name": "khaidang",
+      "id": 1
+    }
   ]
 }

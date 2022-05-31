@@ -7,11 +7,13 @@ import { ProductDetailComponent } from './pages/product-detail/product-detail.co
 import { ProductEditComponent } from './pages/product-edit/product-edit.component';
 import { ProductManageComponent } from './pages/product-manage/product-manage.component';
 import { ProductComponent } from './pages/product/product.component';
+import { SignupComponent } from './pages/signup/signup.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponentComponent,children :[
     { path: 'product', component: ProductComponent },
     { path: 'product/:id', component: ProductDetailComponent },
+    {path:'signup', component:SignupComponent}
     
 
   ] },

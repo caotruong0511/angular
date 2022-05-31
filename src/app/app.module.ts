@@ -12,6 +12,7 @@ import { ProductAddComponent } from './pages/product-add/product-add.component';
 import { FormsModule } from '@angular/forms';
 import { ProductEditComponent } from './pages/product-edit/product-edit.component';
 import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
+import { SignupComponent } from './pages/signup/signup.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +23,7 @@ import { ProductDetailComponent } from './pages/product-detail/product-detail.co
     ProductAddComponent,
     ProductEditComponent,
     ProductDetailComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
